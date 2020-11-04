@@ -67,6 +67,7 @@
     background: #fff;
     border-radius: 4px;
     padding: 18px;
+    min-height: 512px;
   
     .image {
       width: 100%;
@@ -101,6 +102,20 @@
           line-height: 1.5;
         }
       }
+    }
+  }
+  @media (min-width: 700px) and (max-width: 1024px) {
+    .tablet-left-container {
+      width: 31%;
+    }
+    .tablet-right-container {
+      width: 79%
+    }
+  }
+  @media (min-width: 1440px) {
+    .container-fluid {
+      max-width: 1440px;
+      margin: auto;
     }
   }
   

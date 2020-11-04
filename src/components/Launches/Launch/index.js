@@ -8,7 +8,7 @@ const index = props => {
 
   return (
     
-    <div className="col-sm-6 col-md-3 mb-3">
+    <div className="col-sm-6 col-md-6 col-lg-3 mb-3">
             <div className="card-component">
               <img className="image" src={launch.links.missionPatchSmall ? 
                 launch.links.missionPatchSmall : ''} 

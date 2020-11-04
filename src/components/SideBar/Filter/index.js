@@ -73,7 +73,7 @@ class Filter extends Component {
   render() {
   
     return (
-      <div className="col-sm-4 col-md-2 mb-3">
+      <div className="col-sm-4 col-md-4 col-lg-2 tablet-left-container">
         <div className="filter-component">
           <h2>Filters <span className="clear-filter" onClick={() => this.onToggleHandler('', null)}>clear filters</span></h2>
           <div className="filter-wrapper">

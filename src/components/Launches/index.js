@@ -19,7 +19,7 @@ class Launches extends React.Component {
     return (
    
       
-      <div className="col-sm-8 col-md-10">
+      <div className="col-sm-8 col-md-8 col-lg-10 tablet-right-container">
         <div className="row">
           {filteredLaunches
             && filteredLaunches.map((launch, index) => {

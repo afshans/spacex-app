@@ -13,8 +13,9 @@ const App = () => {
          <div className="row">
           <SideBar />
           <Launches />
-          < Footer />
+         
         </div>
+        < Footer />
       </div> 
     </main>
   );
